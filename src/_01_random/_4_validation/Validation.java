@@ -11,7 +11,7 @@ public class Validation {
 	public static void main(String[] args) {
 
 		Random randomMaker = new Random();
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 10; i++) {
 		int randomNumber = randomMaker.nextInt(5);
 		
 
@@ -21,16 +21,16 @@ public class Validation {
 			if (randomNumber == 0) {
 				JOptionPane.showMessageDialog(null, "You are great at programming!");
 			}
-			if (randomNumber == 1) {
+			else if (randomNumber == 1) {
 				JOptionPane.showMessageDialog(null, "You rock!");
 			}
-			if (randomNumber == 2) {
+			else if (randomNumber == 2) {
 				JOptionPane.showMessageDialog(null, "You don't stink!");
 			}
-			if (randomNumber == 3) {
+			else if (randomNumber == 3) {
 				JOptionPane.showMessageDialog(null, "I think you're cool!");
 			}
-			if (randomNumber == 4) {
+			else if (randomNumber == 4) {
 				JOptionPane.showMessageDialog(null, "You are epic!");
 			}
 			// 2. Repeat all the code above 10 times
@@ -39,3 +39,4 @@ public class Validation {
 		}
 	}
 }
+//
